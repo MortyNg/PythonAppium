@@ -1,0 +1,57 @@
+2021-02-04 16:52:10 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/gotoLoginView
+2021-02-04 16:52:11 - root - INFO: - 等待结束，等待时长为：0:00:01.273084
+2021-02-04 16:52:11 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/gotoLoginView
+2021-02-04 16:52:11 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/gotoLoginView
+2021-02-04 16:52:11 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/btn_switch_veritype
+2021-02-04 16:52:14 - root - INFO: - 等待结束，等待时长为：0:00:02.374342
+2021-02-04 16:52:14 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/btn_switch_veritype
+2021-02-04 16:52:14 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/btn_switch_veritype
+2021-02-04 16:52:14 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/goto_oversea_page
+2021-02-04 16:52:14 - root - INFO: - 等待结束，等待时长为：0:00:00.662901
+2021-02-04 16:52:14 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/goto_oversea_page
+2021-02-04 16:52:14 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/goto_oversea_page
+2021-02-04 16:52:14 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/country_textview
+2021-02-04 16:52:15 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/country_textview
+2021-02-04 16:52:15 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/item_relative
+2021-02-04 16:52:17 - root - INFO: - 等待结束，等待时长为：0:00:01.786525
+2021-02-04 16:52:17 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/item_relative
+2021-02-04 16:52:17 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:18 - root - INFO: - 等待结束，等待时长为：0:00:01.420762
+2021-02-04 16:52:18 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:18 - root - INFO: - 输入数据：
+2021-02-04 16:52:19 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_password
+2021-02-04 16:52:19 - root - INFO: - 输入数据：
+2021-02-04 16:52:20 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:20 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:21 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:21 - root - INFO: - 等待结束，等待时长为：0:00:00.049791
+2021-02-04 16:52:21 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:21 - root - INFO: - 输入数据：   
+2021-02-04 16:52:22 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_password
+2021-02-04 16:52:22 - root - INFO: - 输入数据：123456
+2021-02-04 16:52:22 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:23 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:23 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:23 - root - INFO: - 等待结束，等待时长为：0:00:00.050768
+2021-02-04 16:52:23 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:24 - root - INFO: - 输入数据：5678250990
+2021-02-04 16:52:24 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_password
+2021-02-04 16:52:25 - root - INFO: - 输入数据：
+2021-02-04 16:52:25 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:25 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:26 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:26 - root - INFO: - 等待结束，等待时长为：0:00:00.068164
+2021-02-04 16:52:26 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:26 - root - INFO: - 输入数据：111
+2021-02-04 16:52:27 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_password
+2021-02-04 16:52:27 - root - INFO: - 输入数据：111
+2021-02-04 16:52:27 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:28 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:29 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:29 - root - INFO: - 等待结束，等待时长为：0:00:00.055186
+2021-02-04 16:52:29 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_phones
+2021-02-04 16:52:29 - root - INFO: - 输入数据：111qw
+2021-02-04 16:52:30 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/loginnumber_password
+2021-02-04 16:52:30 - root - INFO: - 输入数据：111
+2021-02-04 16:52:30 - root - INFO: - 查找元素：id,com.nowcoder.app.florida:id/go_numberlogin
+2021-02-04 16:52:31 - root - INFO: - 点击元素：id,com.nowcoder.app.florida:id/go_numberlogin
