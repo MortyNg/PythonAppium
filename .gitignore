@@ -2,3 +2,4 @@
 .pytest_cache
 TestDatas
 Outputs
+login_data.py
