@@ -16,8 +16,8 @@ from PageObjects.welcom_page import WelcomPage
 from PageObjects.profile_page import ProfilePage
 from PageObjects.setting_page import SettingPage
 from PageObjects.main_page import MainPage
-from Datas import login_data as ld
-from Common.get_toast import GetToast
+from TestDatas import login_data as ld
+from Common.basepage import BasePage
 
 # 在每次用例开始前和结束后都去执行一次
 # 还有更高级的setupClass 和 teardownClass，需要配合@classmethod装饰器一起使用
@@ -65,7 +65,8 @@ class TestLogin():
         cls.pp = ProfilePage(cls.driver)
         cls.sp = SettingPage(cls.driver)
         cls.mp = MainPage(cls.driver)
-        cls.gt = GetToast(cls.driver)
+        cls.bp = BasePage(cls.driver)
+
 
         # 欢迎页面，选择登录
         cls.wp.login_register()
@@ -103,7 +104,7 @@ class TestLogin():
         self.lp.login(dic['phone'], dic['password'])
         # 断言
         # self.assertEqual(self.gt.get_toast(dic['check']), dic['check'])
-        assert self.gt.get_toast(dic['check']) == dic['check'] # pytest 使用python自带的断言
+        assert self.bp.get_toast(dic['check']) == dic['check'] # pytest 使用python自带的断言
 
 
 if __name__ == '__main__':

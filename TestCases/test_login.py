@@ -15,7 +15,7 @@ from PageObjects.welcom_page import WelcomPage
 from PageObjects.profile_page import ProfilePage
 from PageObjects.setting_page import SettingPage
 from PageObjects.main_page import MainPage
-from Datas import login_data as ld
+from TestDatas import login_data as ld
 from ddt import ddt, data
 from Common.get_toast import GetToast
 from Common.appstart import AppStart

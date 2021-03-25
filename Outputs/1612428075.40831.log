@@ -1,9 +1,0 @@
-2021-02-04 16:41:43 - root - INFO: - 等待元素: id,com.nowcoder.app.florida:id/gotoLoginView
-2021-02-04 16:42:03 - root - ERROR: - 等待 id,com.nowcoder.app.florida:id/gotoLoginView 元素可见失败！！！
-Traceback (most recent call last):
-  File "D:\Projects\PythonAppium\Common\basepage.py", line 63, in wait_eleVisible
-    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc))
-  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-

@@ -8,7 +8,6 @@ Date    :2021/1/27
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PageLocators.settingpage_locators import SettingPageLocator as loc
-from Common.swipe_action import SwipeAction
 from Common.basepage import BasePage
 
 class SettingPage(BasePage):
@@ -19,8 +18,7 @@ class SettingPage(BasePage):
     def logout_isExsit(self):
 
         # 向上滑动
-        SwipeAction.swipe_up(self)
-
+        self.swipe_up()
         try:
             # WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(loc.logout_text_view))\
             self.wait_eleVisible(loc.logout_text_view)
@@ -29,9 +27,8 @@ class SettingPage(BasePage):
             return False
 
     def logout(self):
-
         # 向上滑动
-        SwipeAction.swipe_up(self)
+        self.swipe_up()
 
         # WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located(loc.logout_text_view))
         self.wait_eleVisible(loc.logout_text_view)
